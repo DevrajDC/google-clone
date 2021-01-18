@@ -1,0 +1,37 @@
+.menu-icon,
+.user-img {
+  height: 30px;
+  cursor: pointer;
+}
+.search-icon,
+.voice-search-icon {
+  height: 20px;
+}
+.container img {
+  height: 200px;
+}
+.search-bar:focus {
+  outline: none;
+}
+.search-box {
+  border-radius: 30px;
+}
+@media (max-width: 480px) {
+  .search-box {
+    width: 90% !important;
+  }
+  .footer-links-left {
+    display: none;
+  }
+  .footer-links-right {
+    margin: auto;
+  }
+}
+@media (max-width: 380px) {
+  .container img {
+    height: 150px;
+  }
+  .nav-tabs {
+    display: none;
+  }
+}
